@@ -1,13 +1,13 @@
 class DoogieCli < Formula
   desc "두기의 고전게임 런처 CLI - macOS/Linux용 DOS/Windows 게임 런처"
   homepage "https://github.com/gcjjyy/doogie-cli"
-  version "1.0.3"
+  version "1.0.4"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/gcjjyy/doogie-cli/releases/download/v1.0.3/doogie-cli-macos-arm64.tar.gz"
-      sha256 "18675651d0177f4aaab6a95dc5ddc563e3d849617aea6053836590b29d2c98a5"
+      url "https://github.com/gcjjyy/doogie-cli/releases/download/v1.0.4/doogie-cli-macos-arm64.tar.gz"
+      sha256 "e52cdc6eec8fcd3f15a9a43621ec4e74f263dec88a6903fd92f8730f8088d16b"
 
       def install
         libexec.install "doogie-cli-macos-arm64"
@@ -17,8 +17,8 @@ class DoogieCli < Formula
     end
 
     on_intel do
-      url "https://github.com/gcjjyy/doogie-cli/releases/download/v1.0.3/doogie-cli-macos-x64.tar.gz"
-      sha256 "cfc96524e4242bf8749096318dbf153970074195fb71b3c027b3fafe2a51b38b"
+      url "https://github.com/gcjjyy/doogie-cli/releases/download/v1.0.4/doogie-cli-macos-x64.tar.gz"
+      sha256 "5e7d17b708b734cee03be545b0fd001980653cc46cdcd0baa7eeb3d985d3a478"
 
       def install
         libexec.install "doogie-cli-macos-x64"
@@ -30,8 +30,8 @@ class DoogieCli < Formula
 
   on_linux do
     on_intel do
-      url "https://github.com/gcjjyy/doogie-cli/releases/download/v1.0.3/doogie-cli-linux-x64.tar.gz"
-      sha256 "ccd3a1cf8f39e6a7b9ffaf4a299a0e6401cb7ccfb571448299e8c2f530864b73"
+      url "https://github.com/gcjjyy/doogie-cli/releases/download/v1.0.4/doogie-cli-linux-x64.tar.gz"
+      sha256 "67e9b619bf3e378a67a38552167b0a8fa295bfed124558c3f23c6acaa5eef220"
 
       def install
         libexec.install "doogie-cli-linux-x64"
