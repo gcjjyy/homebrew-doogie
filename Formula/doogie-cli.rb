@@ -1,13 +1,13 @@
 class DoogieCli < Formula
   desc "두기의 고전게임 런처 CLI - macOS/Linux용 DOS/Windows 게임 런처"
   homepage "https://github.com/gcjjyy/doogie-cli"
-  version "1.0.7"
+  version "1.0.8"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/gcjjyy/doogie-cli/releases/download/v1.0.7/doogie-cli-macos-arm64.tar.gz"
-      sha256 "6b61aeac0ae7e355f467c9d3d7b0eb1fd76cd6c0f43d66b4af9f0b8de6bb6616"
+      url "https://github.com/gcjjyy/doogie-cli/releases/download/v1.0.8/doogie-cli-macos-arm64.tar.gz"
+      sha256 "d5098311e633277b1baa5d451ce456c76a53f6ae060fb9e51fc71a53ba8da8d0"
 
       def install
         libexec.install "doogie-cli-macos-arm64"
@@ -17,8 +17,8 @@ class DoogieCli < Formula
     end
 
     on_intel do
-      url "https://github.com/gcjjyy/doogie-cli/releases/download/v1.0.7/doogie-cli-macos-x64.tar.gz"
-      sha256 "55cfbdf3310e6db745e166b5cc5f5ebf510df3cf65bcace0c33956e7b20f805e"
+      url "https://github.com/gcjjyy/doogie-cli/releases/download/v1.0.8/doogie-cli-macos-x64.tar.gz"
+      sha256 "07415b95b77366f6b650e787f8f26cd9dc7cb4f9d3c369acedadce126c0c9e5e"
 
       def install
         libexec.install "doogie-cli-macos-x64"
@@ -30,8 +30,8 @@ class DoogieCli < Formula
 
   on_linux do
     on_intel do
-      url "https://github.com/gcjjyy/doogie-cli/releases/download/v1.0.7/doogie-cli-linux-x64.tar.gz"
-      sha256 "aae1357f13073a57f50acf524fadbd39b8e656aee6128b31f249cfff65b738e4"
+      url "https://github.com/gcjjyy/doogie-cli/releases/download/v1.0.8/doogie-cli-linux-x64.tar.gz"
+      sha256 "32ed79b7bf172ade88df7050876d5049a9027b8b107cfcfa2687fc67b2ee6737"
 
       def install
         libexec.install "doogie-cli-linux-x64"
@@ -40,8 +40,8 @@ class DoogieCli < Formula
     end
 
     on_arm do
-      url "https://github.com/gcjjyy/doogie-cli/releases/download/v1.0.7/doogie-cli-linux-arm64.tar.gz"
-      sha256 "ae168c06312f2c40a4e70c30409df7a0f44d0c27f7e00cdafdc9fe23952a271f"
+      url "https://github.com/gcjjyy/doogie-cli/releases/download/v1.0.8/doogie-cli-linux-arm64.tar.gz"
+      sha256 "84219cb3a0a4bee80de739f94d270c87dc341f469390432c4b6fb619d3b897a7"
 
       def install
         libexec.install "doogie-cli-linux-arm64"
